@@ -1,0 +1,23 @@
+{
+    "extends": [ "airbnb", "prettier", "plugin:node/recommended"],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": [ "prettier" ],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "tabWidth": 4,
+                "singleQuote": true,
+                "trailingComma": "none"
+            }
+            
+        ],
+        "semi": "error",
+        "no-console": "warn",
+        "prefer-const": "warn",
+        "no-unused-vars":"warn"
+    }
+}
